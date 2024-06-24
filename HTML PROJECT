@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="A brief description of this website">
+    <meta http-equiv="refresh" content="30">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+</head>
+
+<body>
+    <header>
+        <h1>PERSONAL PORTFOLIO WEBSITE</h1>
+        <p><strong>WELCOME TO MY PORTFOLIO WEBSITE</strong></p>
+    </header>
+
+    <section>
+        <div id="1"><strong>MY NAME IS AYAN</strong></div>
+        <h2><strong>YOU CAN CONTACT ME AT:</strong></h2>
+        <nav>
+            <ol type="I">
+                <li><a href="mailto:ayaanhassan.khan@gmail.com" target="_blank">GMAIL</a></li>
+                <li><a href="https://www.instagram.com/ayaankhann_0" target="_blank">INSTAGRAM</a></li>
+                <li><a href="https://github.com/Ayankhann0" target="_blank">Github</a></li>
+            </ol>
+        </nav>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>ABOUT ME</h3>
+        <article>
+            <p>Hello! I am a passionate <em>computer science student</em> currently studying at the
+                <em>National University of Sciences and Technology (NUST)</em>. With a strong foundation in computer
+                science principles and a keen interest in web development, I am on a journey to master front-end
+                technologies and create
+                engaging, user-friendly web applications.
+            </p>
+        </article>
+    </section>
+
+    <section>
+        <h3><strong>LIST OF ALL THE SKILLS</strong></h3>
+        <ol>
+            <li>Proficient in writing clean, semantic HTML to build well-structured web pages.</li>
+            <li>Experienced in styling web pages using CSS to create visually appealing and responsive designs.</li>
+            <li>Skilled in using JavaScript to add interactivity and dynamic content to web pages.</li>
+            <li>Familiar with building modern web applications using React, including state management and
+                component-based architecture.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>CONTACT SECTION</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <hr>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <label for="contact">Contact No:</label>
+                <input type="tel" id="contact" name="contact">
+            </div>
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div>
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I AGREE TO ALL TERMS AND CONDITIONS
+                </label>
+            </div>
+            <div>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </div>
+            <div><strong>Thank you for contacting us!</strong></div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ayan. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
